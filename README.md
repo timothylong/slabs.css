@@ -61,9 +61,19 @@ The starter `main.scss`:
 @import "partials/6-utilities/utilities";
 ```
 
+## Usage
+
+[**npm**](https://www.npmjs.com/package/slabs.css)
+```sh
+npm install slabs.css
+```
+
 ### Built With
 
 * [Node.js](https://nodejs.org)
 * [Sass](https://sass-lang.com)
 * [gulp.js](https://gulpjs.com)
 * [bijou.css](https://github.com/timothylong/bijou.css)
+
+
+https://unpkg.com/bijou.css

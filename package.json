@@ -1,8 +1,7 @@
 {
 	"name": "slabs.css",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "An automated, object-oriented SCSS framework for small and medium-sized applications.",
-	"main": "./src/assets/css/main.scss",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/timothylong/slabs.css.git"
