@@ -74,6 +74,3 @@ npm install slabs.css
 * [Sass](https://sass-lang.com)
 * [gulp.js](https://gulpjs.com)
 * [bijou.css](https://github.com/timothylong/bijou.css)
-
-
-https://unpkg.com/bijou.css

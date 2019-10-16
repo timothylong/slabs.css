@@ -1,6 +1,6 @@
 {
 	"name": "slabs.css",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "An automated, object-oriented SCSS framework for small and medium-sized applications.",
 	"repository": {
 		"type": "git",
