@@ -1,3 +1,7 @@
+
+
+![slabs.css](https://i.ibb.co/724h5Gv/tumblr-l8nwiaog3i1qa48wxo1-500.gif)
+
 # slabs.css
 
 An automated, object-oriented SCSS framework for small and medium-sized applications.
@@ -28,7 +32,7 @@ gulp
 - `/1-settings`: Preprocessors, fonts, variables
 - `/2-tools`: Mixins, functions
 - `/3-generic`: Resets or normalizing files
-- `/4-elements`: Bare HTML elements (H1, a, p, etc…)
+- `/4-elements`: Bare HTML elements (H1, a, p, etcâ€¦)
 - `/5-components`: Majority of code goes here to style specific UI components
 - `/6-utilities`: Utilities and helper classes that have the most authority
 
