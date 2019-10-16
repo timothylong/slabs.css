@@ -1,0 +1,11 @@
+﻿.ellipsis {
+	@include ellipsis();
+}
+
+.word-wrap {
+	@include word-wrap();
+}
+
+.clearfix {
+	@include clearfix();
+}

@@ -1,0 +1,38 @@
+﻿.container {
+	max-width: $container-width;
+	margin: auto;
+}
+
+.row {
+	display: flex;
+
+	.module {
+		padding: 1rem;
+		background-color: #ddd;
+	}
+
+	[class*=col-] {
+		flex: 1;
+		padding: $grid-gutter-width;
+	}
+}
+
+@for $i from 1 through $grid-columns {
+	.col-#{$i} {
+		flex: 0 0 100% / $grid-columns * $i;
+	}
+
+	.offset-#{$i} {
+		margin-left: 100% / $grid-columns * $i;
+	}
+}
+
+@include sm {
+	.row {
+		flex-direction: column;
+
+		[class*=offset-] {
+			margin-left: 0;
+		}
+	}
+}

@@ -1,0 +1,33 @@
+﻿/* Font Import */
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+/* Generic */
+$global-font-family: "", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+$global-font-family-alt: serif;
+$global-font-size: 16px;
+$global-line-height: 1.5;
+$global-radius: 3px;
+$global-transition: all 0.3s ease-in-out;
+
+/* Layout */
+$container-width: 1400px;
+$grid-columns: 12;
+$grid-gutter-width: 1rem;
+
+/* Headings */
+$font-size-h1: 2em;
+$font-size-h2: 1.5em;
+$font-size-h3: 1.17em;
+$font-size-h4: 1em;
+$font-size-h5: 0.83em;
+$font-size-h6: 0.67em;
+
+/* Color */
+$primary-color: dodgerblue;
+$primary-color-alt: #005596;
+
+/* Media Queries */
+$sm-width: 768px;
+$md-width: 1024px;
+$lg-width: 1366px;
+$xl-width: 1800px;

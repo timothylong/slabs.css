@@ -1,0 +1,36 @@
+/* 
+
+    slabs.css
+    (https://github.com/timothylong/slabs.css)
+
+    Contents:
+    
+    1. Settings.................Preprocessors, fonts, variables.
+    2. Tools....................Mixins, functions.
+    3. Generic..................Resets or normalizing files.
+    4. Elements.................Bare HTML elements (H1, a, p, etc…)
+    5. Components...............Majority of code goes here to style specific UI components.
+    6. Utilities/Helpers........Utilities and helper classes that have the most authority.
+
+*/
+
+/* 1: Settings */
+@import "partials/1-settings/settings.variables";
+
+/* 2: Tools */
+@import "partials/2-tools/tools.mixins";
+
+/* 3: Generic */
+@import "partials/3-generic/generic.reset";
+
+/* 4: Elements */
+@import "partials/4-elements/elements.page";
+@import "partials/4-elements/elements.headings";
+@import "partials/4-elements/elements.images";
+
+/* 5: Components */
+@import "partials/5-components/components.layout";
+@import "partials/5-components/components.buttons";
+
+/* 6: Utilities */
+@import "partials/6-utilities/utilities";

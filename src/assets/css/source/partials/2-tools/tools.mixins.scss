@@ -1,0 +1,42 @@
+﻿@mixin xl {
+	@media (min-width: #{$xl-width}) {
+		@content;
+	}
+}
+
+@mixin lg {
+	@media (max-width: #{$lg-width}) {
+		@content;
+	}
+}
+
+@mixin md {
+	@media (max-width: #{$md-width}) {
+		@content;
+	}
+}
+
+@mixin sm {
+	@media (max-width: #{$sm-width}) {
+		@content;
+	}
+}
+
+@mixin ellipsis() {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+@mixin word-wrap() {
+	word-break: break-word;
+	hyphens: auto;
+}
+
+@mixin clearfix() {
+	&:after {
+		content: "" !important;
+		display: block !important;
+		clear: both !important;
+	}
+}

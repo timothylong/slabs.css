@@ -1,0 +1,35 @@
+{
+	"name": "slabs.css",
+	"version": "1.0.0",
+	"description": "An automated, object-oriented SCSS framework for small and medium-sized applications.",
+	"main": "./src/assets/css/main.scss",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/timothylong/slabs.css.git"
+	},
+	"keywords": [
+		"css",
+		"css-framework",
+		"scss",
+		"scss-framework"
+	],
+	"author": "Timothy Long",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/timothylong/slabs.css/issues"
+	},
+	"homepage": "https://github.com/timothylong/slabs.css",
+	"devDependencies": {
+		"gulp": "*",
+		"gulp-sass": "^4.0.1",
+		"gulp-cssimport": "*",
+		"gulp-autoprefixer": "^4.0.0",
+		"gulp-clean-css": "^3.9.0",
+		"gulp-rename": "^1.2.2",
+		"gulp-livereload": "^3.8.1"
+	},
+	"dependencies": {
+		"gulp-concat": "^2.6.1",
+		"gulp-uglify": "^3.0.1"
+	}
+}

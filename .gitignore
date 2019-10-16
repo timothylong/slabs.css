@@ -1,0 +1,6 @@
+/node_modules
+/.vs
+.DS_Store
+app.min.css
+app.min.js
+package-lock.json
