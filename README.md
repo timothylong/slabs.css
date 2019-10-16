@@ -1,6 +1,6 @@
 
 
-![slabs.css](https://i.ibb.co/724h5Gv/tumblr-l8nwiaog3i1qa48wxo1-500.gif)
+![slabs.css](https://i.ibb.co/c8fWBgm/california-games-8-bit.jpg)
 
 # slabs.css
 
